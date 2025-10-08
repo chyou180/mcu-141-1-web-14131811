@@ -5,8 +5,9 @@ body {
 header {
   text-align: center;
 }
-nav {
-  margin-bottom: 10px;
+section.body {
+  width: 90%;
+  margin: 0px auto;
 }
 .card {
   border: solid 1px #999;
@@ -36,7 +37,7 @@ td.company {
 }
 td.price {
   width: 100px;
-  text-align: center;
+  text-align: right;
 }
 footer {
   margin-top: 10px;
