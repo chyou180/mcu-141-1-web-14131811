@@ -1,41 +1,13 @@
 header{
 border-bottom: solid 1px var(--border-color);
 
-div.container{
-    max-width: 90vw;
-    margin: 0px auto;
-    
-    padding-left: 2rem;
-    padding-right: 2rem;
-    
-    >div{
-        
-    height: 4rem;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    h3{
+   h3{
     margin: 0px;
     font-style: 1.25rem;
     font-weight: 700; 
     color: var(--primary-color);
     }
-
-    >div{
-    display: flex;
-    align-items: center;
-    &.left{
-        gap: 2rem;
-    }
-    &.right{
-        gap: 0.5rem;
-
-    }
-    
-    }
-    nav{
+nav{
     display: flex;
     gap: 1.5rem;
     a{
@@ -47,7 +19,19 @@ div.container{
         }
      }
     }
-    div.search{
+    div{
+    display: flex;
+    align-items: center;
+    &.left{
+        gap: 2rem;
+    }
+    &.right{
+        gap: 0.5rem;
+
+    }
+    
+    
+    &.search{
         display: flex;
         gap: 0;
 
@@ -73,6 +57,7 @@ div.container{
             cursor: pointer;
         }
     }
+}
      button{
         background-color: transparent;
         padding: 0.5rem;
@@ -81,6 +66,4 @@ div.container{
         color: var(--text-color);
      }
 
-   }
-  }
 }
