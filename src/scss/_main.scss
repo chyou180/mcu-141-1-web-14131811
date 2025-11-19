@@ -9,8 +9,8 @@ div{
         max-width: 90vw;
         margin: 0px auto;
 
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: var(--container-left);
+        padding-right: var(--container-right);
 
     >div{
         width: 100%;

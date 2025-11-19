@@ -12,7 +12,7 @@ background-color: var(--background-color);
     color: var(--primary-color);
     }
 nav{
-    display: flex;
+    display: var(--nav-display);
     gap: 1.5rem;
 
     }
