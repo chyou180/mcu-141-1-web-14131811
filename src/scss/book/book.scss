@@ -1,9 +1,8 @@
-@use"./main";
-@use"./header";
-@use"./body";
-@use"../color";
-@use"./footer";
 @use"../variable";
+@use"../color";
+@use"./header";
+@use"./main";
+
 
 html,
 body{
