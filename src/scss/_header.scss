@@ -1,3 +1,5 @@
+@use"./common";
+
 header{
 border-bottom: solid 1px var(--border-color);
 position: sticky;
@@ -49,10 +51,8 @@ nav{
         button{
             border-top-right-radius: 1rem;
             border-bottom-right-radius: 1rem;
-            padding: 0.5rem;
-            border: none;
             background-color: var(--gray-color-100);
-            cursor: pointer;
+            @include common.buttonStyle;
         }
     }
 }
@@ -60,8 +60,8 @@ nav{
         background-color: transparent;
         padding: 0.5rem;
         border: none;
-        cursor: pointer;
         color: var(--text-color);
+        cursor: pointer;
      }
 
 }
