@@ -27,14 +27,14 @@ main.wrapper{
     padding-right: var(--container-right);
 
     >div{
-        outline: solid 1px red;
         padding-block: 4rem;
-
+        
         &.home{
             height: 100vh;
         }
         &.page{
             min-height: 700px;
+            outline: solid 1px red;
         }
     }
 }
