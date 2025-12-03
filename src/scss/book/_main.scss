@@ -39,6 +39,7 @@ main.wrapper{
             div{
                 &.title{
                     margin-top: 1.5rem;
+                    margin-bottom: 6rem;
                     text-align: center;
 
                     h2{
@@ -47,7 +48,7 @@ main.wrapper{
                     }
 
                     strong{
-                        color: var(--gray-color-500);
+                        color: var(--gray-color-500 );
                     }
                 }
             }
