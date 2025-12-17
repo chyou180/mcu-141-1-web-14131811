@@ -1,66 +1,62 @@
-section{
-    width: 100%;
+section {
+  width: 100%;
 
-    div{
-    &.container{
-        
-        max-width: 90vw;
-        margin: 0px auto;
+  div {
+    &.container {
+      max-width: 90vw;
+      margin: 0px auto;
 
-        padding-left: var(--container-left);
-        padding-right: var(--container-right);
+      padding-left: var(--container-left);
+      padding-right: var(--container-right);
 
-    >div{
+      > div {
         width: 100%;
         height: 4rem;
 
         display: flex;
         align-items: center;
+      }
     }
-    }
-}
+  }
 
-main.wrapper{
+  main.wrapper {
     max-width: 90vw;
     margin: 0 auto;
     padding-left: var(--container-left);
     padding-right: var(--container-right);
 
-    >div{
-        padding-block: 4rem;
-        
-        &.home{
-            height: 100vh;
-        }
-        &.page{
-            min-height: 700px;
-            outline: solid 1px red;
+    > div {
+      padding-block: 4rem;
 
-            div{
-                &.title{
-                    margin-top: 1.5rem;
-                    margin-bottom: 6rem;
-                    text-align: center;
+      &.home {
+        height: 100vh;
+      }
+      &.page {
+        div {
+          &.title {
+            margin-top: 1.5rem;
+            margin-bottom: 6rem;
+            text-align: center;
 
-                    h2{
-                        margin: 0;
-                        margin-bottom: 0.5rem;
-                    }
-
-                    strong{
-                        color: var(--gray-color-500 );
-                    }
-                }
+            h2 {
+              margin: 0;
+              margin-bottom: 0.5rem;
             }
-        }
-    }
-}
-}
-a{
-        color: var(--text-color);
-        text-decoration: inherit;
 
-        &:hover{
-            color: var(--primary-color);
+            strong {
+              color: var(--gray-color-500);
+            }
+          }
         }
-     }
+      }
+    }
+  }
+}
+a {
+  color: var(--text-color);
+  text-decoration: inherit;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
